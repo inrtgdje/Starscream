@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.source_files = 'Sources/**/*.swift'
   s.swift_version = '5.0'
+  s.module_name = 'Starscream'
 end
